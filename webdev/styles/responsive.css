@@ -44,8 +44,11 @@ h2 {
 	font-size: 2.25em;
 }
 a {
-	font-weight: bold;
-	text-decoration: none;
+    font-weight: bold;
+    border-width: thin;
+}
+header nav #navlinks {
+    border-width: thick;
 }
 a:link {
 	color: #F68979;
@@ -116,8 +119,6 @@ main, aside {
 	margin-right: 4%;
 }
 #hero img {
-	max-width: 100%;
-	display: block;
 }
 #hero p {
 	color: #F68979;
