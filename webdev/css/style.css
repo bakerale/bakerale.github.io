@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#container #menu ul {
+    text-align: center;
+    color: #000000;
+}
+#container #header #title {
+    text-align: center;
+}
