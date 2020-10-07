@@ -6,7 +6,7 @@ main nav a {
     padding-left: 20px;
     padding-bottom: 20px;
     display: block;
-    width: 20%;
+    width: 16%;
     float: left;
     text-decoration: none;
     color: #FFFFFF;
@@ -27,7 +27,11 @@ main nav a {
 .grid-are.name h1 {
     display: block;
     color: #000000;
-    font-size: 45px;
+    font-size: 55px;
+}
+.responsive.resume h1 {
+    text-align: left;
+    font-size: 55px;
 }
 #skill .grid-area p {
     text-align: center;
@@ -47,18 +51,6 @@ main nav a {
 #education h3 {
     font-size: 30px;
 }
-.grid-area.photo img {
-    border-radius: 50%;
-    display: block;
-    float: right;
-    width: 100%;
-    max-width: 400px;
-    -moz-border-radius: 50%;
-    background-color: #000000;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 #work h3 {
     width: 100%;
     font-size: 30px;
@@ -68,30 +60,30 @@ main nav a {
 }
 #work h4 {
 }
-#work div {
+#about p {
+    float: left;
+}
+#about p {
+}
+#work p {
+}
+#education #skill div {
     color: #027893;
 }
-#work div two {
+.responsive.resume p img {
+    border-radius: 50%;
+}
+#education #skill div {
+    color: #027893;
+}
+#skill .grid-are.references div {
+    color: #027893;
+}
+#skill .grid-are.references div {
     color: #027893;
 }
 #about p {
-    padding: 10px;
 }
-#education div {
-    color: #027893;
-}
-#education div two {
-    color: #027893;
-}
-#education #skill div {
-    color: #027893;
-}
-#education #skill div {
-    color: #027893;
-}
-#skill .grid-are.references div {
-    color: #027893;
-}
-#skill .grid-are.references div {
-    color: #027893;
+#skill #contact p {
+    font-size: 15px;
 }
