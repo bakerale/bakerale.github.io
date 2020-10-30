@@ -20,20 +20,16 @@
     padding-bottom: 10px;
     padding-left: 10px;
 }
-
-	
-.gallery-item .gallery-item-1 figure img a:hover{
-    width: 100%;	
-}
 body {
     background-color: #DDDDDD;
+}
+.cart-account a img {
+    width: 50px;
 }
 figure a img {
     width: 100%;
 }
 .flip-card-inner .flp-card-front img {
-    width: 100%;
-    float: right;
 }
 
 .page-header .social-media-links a {
@@ -54,40 +50,23 @@ figure a img {
     text-align: center;
     text-decoration: none;
 }
-.logo .flip-card .flip-card-inner {
-	position: relative;
-	width: 300px;
-	height: 300px;
-	transition: transform 0.6s;
-	transform-style: preserve-3d;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,1)
-	
-}
-.flip-card-inner{
-	position: relative;
-	width: 300px;
-	height: 300px;
-	transition: transform 0.6s;
-	transform-style: preserve-3d;
-	box-shadow: 0 4px 8px rgba(0,0,0,1)
-	
-}
 
 .flip-card:hover .flip-card-inner {
 	transform: rotateY(180deg)
 	
 }
-
-.page-header .page-sub-header a:hover {
-	color: #234300	
-		
-	
+.page-footer .address {
+    text-align: center;
 }
-
+.social-media-links a img {
+    width: 50px;
+}
 .page-footer .copywright {
     text-align: center;
     color: #000000;
 }
-.page-footer .address {
+.page-footer .copywright a {
+    color: #000000;
+    text-decoration: none;
     text-align: center;
 }
