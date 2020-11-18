@@ -110,3 +110,20 @@ body {
     text-align: center;
     font-size: small;
 }
+
+.navigation a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #006847;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
